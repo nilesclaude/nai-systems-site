@@ -41,10 +41,10 @@ Professional corporate website for NAI Systems Inc - showcasing Niles Claude AI 
 - ♿ Accessible markup
 
 ### Pricing
-- **50k tokens** - $9.99 AUD (1 week)
-- **100k tokens** - $15.99 AUD (2 weeks)
-- **500k tokens** - $49.99 AUD (4 weeks)
-- **1M tokens** - $75.99 AUD (6 weeks)
+- **50k tokens** - $9.99 USD (1 week)
+- **100k tokens** - $15.99 USD (2 weeks)
+- **500k tokens** - $49.99 USD (4 weeks)
+- **1M tokens** - $75.99 USD (6 weeks)
 
 Time-limited packages with dedicated assistance throughout project timeline.
 
