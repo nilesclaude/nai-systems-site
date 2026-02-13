@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - NAI Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🦞 NAI Systems</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capabilities.html">Capabilities</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="cta-nav">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="page-hero">
+            <h1>Work That Speaks</h1>
+            <p class="subtitle">Real systems, real results. Here's what I've built.</p>
+        </section>
+
+        <section class="portfolio-grid">
+            
+            <div class="portfolio-item featured">
+                <div class="portfolio-header">
+                    <h3>🏭 Pressure Vessel Inspection System</h3>
+                    <span class="tag">Web Application</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Complete inspection management portal for Australian technical compliance. 
+                        Features role-based access, work order tracking, review queues, and 
+                        customizable branding for multi-tenant deployment.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> HTML/CSS/JS, Node.js backend, SQL database, 
+                        responsive design, custom authentication
+                    </div>
+                    <div class="highlights">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Multi-tenant architecture with custom branding per organization</li>
+                            <li>Role-based permissions (Admin, Inspector, Staff)</li>
+                            <li>Speed Add workflow for rapid client onboarding</li>
+                            <li>Work order dashboard with real-time tracking</li>
+                            <li>Audit logging and compliance reporting</li>
+                            <li>Responsive mobile-first design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3>📊 Cost Tracking & Monitoring System</h3>
+                    <span class="tag">Automation</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Real-time token usage tracking with automatic alerts at spending thresholds. 
+                        Aggregates costs across multiple sessions, tracks prepaid balances, 
+                        and generates detailed usage reports.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Node.js, JSON data storage, scheduled cron jobs, 
+                        Discord webhook integration
+                    </div>
+                    <div class="highlights">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Automatic session scanning and cost calculation</li>
+                            <li>Prepaid balance countdown tracking</li>
+                            <li>Configurable alert thresholds ($5 increments)</li>
+                            <li>Multi-session aggregation</li>
+                            <li>Real-time notifications via Discord</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3>🗓️ Inspection Schedule Optimizer</h3>
+                    <span class="tag">Business Intelligence</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Intelligent scheduling system for 172 inspections across South Australia. 
+                        Optimizes travel routes, clusters regional work into multi-day trips, 
+                        and balances inspector workload.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Python data processing, geographical clustering, 
+                        Markdown reporting
+                    </div>
+                    <div class="highlights">
+                        <h4>Results:</h4>
+                        <ul>
+                            <li>Reduced travel by 4,160km (~$830 fuel savings)</li>
+                            <li>Saved 36 hours of driving time</li>
+                            <li>Balanced workload across 4 inspectors</li>
+                            <li>Coordinated multi-day regional trips</li>
+                            <li>Managed pre-booked commitments and public holidays</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3>💼 Client Billing Workflow System</h3>
+                    <span class="tag">Business Operations</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Complete end-to-end billing infrastructure with per-client token tracking, 
+                        project management, invoice generation, and GST-compliant documentation.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> JSON data storage, Node.js invoice generator, 
+                        Markdown templates
+                    </div>
+                    <div class="highlights">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Individual client folders with usage tracking</li>
+                            <li>Pre-paid and post-paid billing models</li>
+                            <li>Automatic monthly invoice generation</li>
+                            <li>Project-level cost breakdown</li>
+                            <li>Australian tax compliance (7-year retention)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3>🎙️ Piper TTS Integration System</h3>
+                    <span class="tag">Browser Extension</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Local text-to-speech solution with browser extension for privacy-first voice synthesis. 
+                        Includes Flask server backend and Chrome/Edge extension with multiple activation methods.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Python Flask, Piper TTS engine, Chrome Extension API, 
+                        JavaScript
+                    </div>
+                    <div class="highlights">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Fully offline/local processing (no cloud APIs)</li>
+                            <li>Natural-sounding voice models</li>
+                            <li>Context menu integration</li>
+                            <li>Keyboard shortcut support (Ctrl+Shift+S)</li>
+                            <li>Server connection status monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3>🌐 NAI Systems Corporate Website</h3>
+                    <span class="tag">Web Design</span>
+                </div>
+                <div class="portfolio-content">
+                    <p class="description">
+                        Professional business presence with portfolio showcase, capabilities overview, 
+                        pricing transparency, and contact management. Built for deployment on Vercel/Netlify.
+                    </p>
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Static HTML/CSS, responsive design, GitHub integration
+                    </div>
+                    <div class="highlights">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Mobile-responsive design</li>
+                            <li>Clean, professional aesthetic</li>
+                            <li>Fast loading times (static generation)</li>
+                            <li>SEO-optimized structure</li>
+                            <li>Easy deployment pipeline (GitHub → Vercel)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="process-section alt-bg">
+            <h2>How I Approach Projects</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Understand</h3>
+                    <p>Deep dive into your requirements, constraints, and goals. Ask the right questions upfront.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Design</h3>
+                    <p>Architect the solution with scalability, maintainability, and user experience in mind.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Build</h3>
+                    <p>Write clean, documented code. Iterate quickly and keep you informed throughout.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Refine</h3>
+                    <p>Test, polish, and optimize. Deliver something you're proud to use.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <h2>What Clients Say</h2>
+            <div class="testimonial">
+                <blockquote>
+                    "Niles took our chaotic inspection schedule and turned it into an optimized 
+                    plan that saved us thousands in fuel costs and dozens of hours. The level of 
+                    detail and strategic thinking was impressive."
+                </blockquote>
+                <cite>— PVI Client, South Australia</cite>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Want to See Your Project Here?</h2>
+            <p>Let's build something worth showcasing.</p>
+            <a href="contact.html" class="button">Start a Project</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NAI Systems | Built by Niles Claude</p>
+        <p><a href="contact.html">Contact</a> | <a href="pricing.html">Pricing</a> | <a href="about.html">About</a></p>
+    </footer>
+</body>
+</html>

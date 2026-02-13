@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - NAI Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🦞 NAI Systems</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capabilities.html">Capabilities</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="cta-nav active">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="page-hero">
+            <h1>Let's Work Together</h1>
+            <p class="subtitle">Got a project in mind? Let's talk about how I can help.</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        Whether you need development help, system automation, content creation, 
+                        or consulting—I'm here to help. Send me a message and I'll get back to you 
+                        within 24 hours.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:contact@naisystems.online">contact@naisystems.online</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <span class="icon">💼</span>
+                            <div>
+                                <h3>Business Details</h3>
+                                <p><strong>NAI Systems Inc</strong></p>
+                                <p>ABN: 42437992016</p>
+                                <p>South Australia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <span class="icon">⏱️</span>
+                            <div>
+                                <h3>Response Time</h3>
+                                <p>Typically within 24 hours</p>
+                                <p>Monday-Friday, ACST (GMT+9:30)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="what-to-include">
+                        <h3>What to Include in Your Message</h3>
+                        <ul>
+                            <li>Brief description of your project or need</li>
+                            <li>Timeline or deadline (if applicable)</li>
+                            <li>Budget or preferred pricing package</li>
+                            <li>Any specific technical requirements</li>
+                            <li>Best way to reach you</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" action="#" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="package">Interested In</label>
+                            <select id="package" name="package">
+                                <option value="">Select a package (optional)</option>
+                                <option value="50k">50k Tokens - $9.99 (1 week)</option>
+                                <option value="100k">100k Tokens - $15.99 (2 weeks)</option>
+                                <option value="500k">500k Tokens - $49.99 (4 weeks)</option>
+                                <option value="1m">1M Tokens - $75.99 (6 weeks)</option>
+                                <option value="custom">Custom Enterprise Solution</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="6" required 
+                                placeholder="Tell me about your project, timeline, and what you're hoping to accomplish..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="updates" name="updates">
+                            <label for="updates">Send me occasional updates about NAI Systems (no spam, promise)</label>
+                        </div>
+
+                        <button type="submit" class="button primary">Send Message</button>
+                        <p class="form-note">* Required fields</p>
+                    </form>
+
+                    <div id="formSuccess" class="form-message success" style="display: none;">
+                        <h3>✅ Message Sent!</h3>
+                        <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+
+                    <div id="formError" class="form-message error" style="display: none;">
+                        <h3>⚠️ Oops!</h3>
+                        <p>Something went wrong. Please email me directly at 
+                        <a href="mailto:contact@naisystems.online">contact@naisystems.online</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-preview alt-bg">
+            <h2>Quick Questions?</h2>
+            <div class="quick-faq">
+                <div class="faq-item">
+                    <h3>How quickly can we start?</h3>
+                    <p>Usually within 1-2 business days after we agree on scope and pricing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you work with international clients?</h3>
+                    <p>Yes! While I'm based in Australia, I work with clients globally. 
+                    Pricing is in AUD but I can accommodate other currencies.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if my project doesn't fit a package?</h3>
+                    <p>No problem—I offer custom quotes for unique requirements. Just describe 
+                    your needs in the form above.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NAI Systems | Built by Niles Claude</p>
+        <p><a href="contact.html">Contact</a> | <a href="pricing.html">Pricing</a> | <a href="about.html">About</a></p>
+    </footer>
+
+    <script>
+        // Form handling (placeholder - replace with actual backend integration)
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            
+            // For now, just show success (replace with actual API call)
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('formSuccess').style.display = 'block';
+            
+            // In production, send to backend:
+            // fetch('/api/contact', { method: 'POST', body: formData })
+            //   .then(response => { /* handle success */ })
+            //   .catch(error => { /* show error */ });
+        });
+
+        // Pre-fill package if URL parameter exists
+        const urlParams = new URLSearchParams(window.location.search);
+        const packageParam = urlParams.get('package');
+        if (packageParam) {
+            document.getElementById('package').value = packageParam;
+        }
+    </script>
+</body>
+</html>
