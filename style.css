@@ -334,6 +334,7 @@ footer a:hover {
     text-transform: uppercase;
 }
 
+.package-tag.trial { background: #6b7280; color: white; }
 .package-tag.starter { background: #10b981; color: white; }
 .package-tag.standard { background: #3b82f6; color: white; }
 .package-tag.popular { background: #f59e0b; color: white; }
@@ -390,6 +391,42 @@ footer a:hover {
     left: 0;
     color: var(--secondary);
     font-weight: bold;
+}
+
+.package-note {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #fef3c7;
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.package-note strong {
+    color: var(--text);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.package-note a {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.package-note a:hover {
+    color: var(--primary-dark);
+}
+
+.trial-note {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #fee2e2;
+    border-left: 3px solid #ef4444;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: #991b1b;
 }
 
 .pricing-card .button {
